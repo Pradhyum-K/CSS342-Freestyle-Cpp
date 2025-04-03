@@ -86,8 +86,6 @@ void reduceFraction(int numerator, int denominator) {
 
 
 Fraction reduce(Fraction input) {
-  // TODO: replace with real code
-
   int divider = 2;
   while (divider <= input.numerator && divider <= input.denominator) {
     if (input.denominator % divider == 0 && input.numerator % divider == 0) {
