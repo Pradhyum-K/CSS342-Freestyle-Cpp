@@ -87,7 +87,17 @@ void reduceFraction(int numerator, int denominator) {
 
 Fraction reduce(Fraction input) {
   // TODO: replace with real code
-  return {-1, -1};
+
+  int divider = 2;
+  while (divider <= input.numerator && divider <= input.denominator) {
+    if (input.denominator % divider == 0 && input.numerator % divider == 0) {
+      input.numerator /= divider;
+      input.denominator /= divider;
+      continue;
+    }
+
+    divider++;
+  }
 
   return input;
 }
@@ -124,8 +134,6 @@ void test() {
       std:: cout << "FAIL, case is: " << input.to_string() << std:: endl;
     }
   }
-  // Compare expected vs. actual
-
 }
 
 
