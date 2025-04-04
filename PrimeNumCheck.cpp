@@ -14,30 +14,11 @@ int main() {
 }
 
 void isPrime(int num) {
-  /*if (num == 2) {
-    cout << "PASS!" << "\n";
-  }
-
-  if (num <= 1) {
-    cout << "FAIL!" << "\n";
-  }
-
-  for (int i = 2; i <= sqrt(num); i++) {
-    if (num % i == 0) {
-      cout << "FAIL!" << "\n";
-    }
-
-    else {
-      isPrime(num / i);
-      cout << "PASS!" << "\n";
-    }
-  }*/
-
   if (num == 2) {
     cout << "PASS!" << "\n";
   }
 
-  if (num == 1) {
+  if (num <= 1) {
     cout << "FAIL!" << "\n";
   }
 
@@ -47,7 +28,9 @@ void isPrime(int num) {
         cout << "FAIL!" << "\n";
       }
 
-      cout << "PASS!" << "\n";
+      else {
+        cout << "PASS!" << "\n";
+      }
     }
   }
 }
@@ -56,16 +39,13 @@ void test() {
 
   // 2: PASS
   // 3: PASS
-  // 7: PASS
-  // 1: FAIL
+  // 9: FAIL
   // 4: FAIL
-  // 8: FAIL
-  // PASS means the number is prime and FAIL means the number isn't prime
+  // PASS means the number is prime and FAIL means the number isn't
 
   isPrime(2);
   isPrime(3);
-  isPrime(7);
-  isPrime(1);
+  isPrime(9);
   isPrime(4);
-  isPrime(8);
+
 }
