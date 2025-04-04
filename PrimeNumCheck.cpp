@@ -31,6 +31,7 @@ void isPrime(int num) {
       else {
         cout << "PASS!" << "\n";
       }
+
     }
   }
 }

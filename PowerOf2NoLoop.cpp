@@ -20,6 +20,7 @@ void is_power_of_2(int num) {
 
   else if (num == 1) {
     cout << "PASS" << "\n";
+
   }
 
 
