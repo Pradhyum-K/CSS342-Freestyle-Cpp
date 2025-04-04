@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 bool is_power_of_2(int num);
 
 int main() {
