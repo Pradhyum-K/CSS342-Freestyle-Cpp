@@ -45,6 +45,13 @@ void test() {
   // 6: FAIL
   // PASS means the number is prime and FAIL means the number isnt prime
 
+  cout << isPrime(2);
+  cout << isPrime(3);
+  cout << isPrime(5);
+  cout << isPrime(1);
+  cout << isPrime(4);
+  cout << isPrime(6);
+
 
 
 }
