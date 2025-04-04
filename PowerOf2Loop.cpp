@@ -3,6 +3,7 @@
 
 bool is_power_of_2(int num);
 
+
 int main() {
     int num = 16;
     bool result = is_power_of_2(num);
