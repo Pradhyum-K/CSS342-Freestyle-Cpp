@@ -5,29 +5,15 @@
 #include <string>
 
 bool is_power_of_2(int num);
-
+void test();
 
 
 int main() {
-    int num = 16;
-    bool result = is_power_of_2(num);
-    std:: cout << result;
-    if (result == true) {
-        printf("\n %d is a power of 2.", num);
-
-    }
-
-    else {
-        printf("\n %d is not a power of 2.", num);
-    }
-
+    test();
     return 0;
 }
 
 bool is_power_of_2(int num) {
-    // Keep dividing num by 2 until either 1 or non-divisible number
-    // is reached
-
     while (num != 1) {
         if (num % 2 == 0) {
             num = num / 2;
@@ -40,5 +26,19 @@ bool is_power_of_2(int num) {
     }
 
     return true ;
+
+}
+
+void test() {
+
+    // 2: PASS
+    // 3: FAIL
+    // 5: FAIL
+    // 8: PASS
+
+    is_power_of_2(2);
+    is_power_of_2(3);
+    is_power_of_2(5);
+    is_power_of_2(8);
 
 }
