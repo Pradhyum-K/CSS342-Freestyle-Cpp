@@ -1,39 +1,32 @@
-#include <iostream>
-
-
 #include <string>
+#include <iostream>
 using namespace std;
 
-bool isPrime(int num);
+void isPrime(int num);
 void test();
 
 int main() {
-  cout << "Enter a number: ";
-  int input = 0;
-  cin >> input;
-  cout << isPrime(input);
-
+  test();
   return 0;
 }
 
-bool isPrime(int num) {
+void isPrime(int num) {
   if (num == 2) {
-    return true;
+    cout << "PASS!" << "\n";
   }
 
   if (num <= 1) {
-    return false;
+    cout << "FAIL!" << "\n";
   }
 
   for (int i = 2; i <= sqrt(num); i++) {
     if (num % i == 0) {
-      // isPrime(num / i);
-      return false;
+      cout << "FAIL!" << "\n";
     }
 
     else {
       isPrime(num / i);
-      return true;
+      cout << "PASS!" << "\n";
     }
   }
 }
@@ -46,15 +39,9 @@ void test() {
   // 1: FAIL
   // 4: FAIL
   // 8: FAIL
-  // PASS means the number is prime and FAIL means the number isnt prime
+  // PASS means the number is prime and FAIL means the number isn't prime
 
-  cout << isPrime(2);
-  cout << isPrime(3);
-  cout << isPrime(7);
-  cout << isPrime(1);
-  cout << isPrime(4);
-  cout << isPrime(8);
-
-
-
+  for (int i = 0; i < 6; i++) {
+    isPrime(i);
+  }
 }
