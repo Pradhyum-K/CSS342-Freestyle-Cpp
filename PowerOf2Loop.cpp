@@ -10,6 +10,7 @@ int main() {
     std:: cout << result;
     if (result == true) {
         printf("\n %d is a power of 2.", num);
+
     }
 
     else {

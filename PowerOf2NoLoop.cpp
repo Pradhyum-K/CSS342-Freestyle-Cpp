@@ -22,6 +22,7 @@ void is_power_of_2(int num) {
     cout << "PASS";
   }
 
+
   else if (num > 1) {
     if (num % 2 == 0) {
       cout << "PASS";

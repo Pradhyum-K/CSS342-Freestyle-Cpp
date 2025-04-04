@@ -116,6 +116,7 @@ void test() {
                         Fraction(4, 2),
                         Fraction(6, 8)};
 
+
   Fraction outputs[4] = {Fraction(1, 2),
                          Fraction(1, 2),
                          Fraction(2, 1),
