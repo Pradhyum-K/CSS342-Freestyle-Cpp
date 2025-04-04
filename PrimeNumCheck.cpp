@@ -50,7 +50,7 @@ void test() {
   cout << isPrime(5);
   cout << isPrime(1);
   cout << isPrime(4);
-  cout << isPrime(6);
+  // cout << isPrime(6);
 
 
 
