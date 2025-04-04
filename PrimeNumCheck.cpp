@@ -3,6 +3,7 @@
 using namespace std;
 
 bool isPrime(int num);
+void test();
 
 int main() {
   cout << "Enter a number: ";
@@ -32,4 +33,18 @@ bool isPrime(int num) {
       return true;
     }
   }
+}
+
+void test() {
+
+  // 2: PASS
+  // 3: PASS
+  // 5: PASS
+  // 1: FAIL
+  // 4: FAIL
+  // 6: FAIL
+  // PASS means the number is prime and FAIL means the number isnt prime
+
+
+
 }
