@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-bool is_power_of_2(int num);
+void is_power_of_2(int num);
 void test();
 
 

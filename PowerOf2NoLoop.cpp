@@ -24,7 +24,7 @@ void is_power_of_2(int num) {
   }
 
 
-  /*else if (num > 1) {
+  else if (num > 1) {
     if (num % 2 == 0) {
       cout << "PASS" << "\n";
     }
@@ -32,7 +32,7 @@ void is_power_of_2(int num) {
     else {
       cout << "FAIL" << "\n";
     }
-  }*/
+  }
 }
 
 
@@ -41,7 +41,7 @@ void test() {
   // 5: FAIL
   // 4: PASS
   // 7: FAIL
-  // 18: FAIL
+  // 18: FAIL, this case is not working as intended
   // 16: PASS
   // PASS means the number is a power of 2 and FAIL means it isn't
 
