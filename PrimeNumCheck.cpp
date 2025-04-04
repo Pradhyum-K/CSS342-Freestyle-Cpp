@@ -42,7 +42,7 @@ void test() {
   // 5: PASS
   // 1: FAIL
   // 4: FAIL
-  // 6: FAIL
+  // 8: FAIL
   // PASS means the number is prime and FAIL means the number isnt prime
 
   cout << isPrime(2);
@@ -50,7 +50,7 @@ void test() {
   cout << isPrime(5);
   cout << isPrime(1);
   cout << isPrime(4);
-  cout << isPrime(6);
+  cout << isPrime(8);
 
 
 
