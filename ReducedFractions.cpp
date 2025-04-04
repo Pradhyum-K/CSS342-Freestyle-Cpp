@@ -1,5 +1,4 @@
 // Pradhyum Kaundinya
-// 4/2/2025
 // This program takes in a fraction as input and reduces the fraction completely
 
 #include <iostream>

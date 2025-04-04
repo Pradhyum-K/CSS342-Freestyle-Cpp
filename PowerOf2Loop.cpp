@@ -1,3 +1,6 @@
+// Pradhyum Kaundinya
+// This program checks whether a number is a power of 2 or not
+
 #include <iostream>
 #include <string>
 
@@ -21,7 +24,7 @@ int main() {
 }
 
 bool is_power_of_2(int num) {
-    // Keep dividing num by 2 until either 1 or nun-divisible number
+    // Keep dividing num by 2 until either 1 or non-divisible number
     // is reached
 
     while (num != 1) {

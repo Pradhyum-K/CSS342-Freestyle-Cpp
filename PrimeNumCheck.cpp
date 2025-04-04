@@ -1,3 +1,6 @@
+// Pradhyum Kaundinya
+// This program check whether a number is prime or not
+
 #include <string>
 #include <iostream>
 using namespace std;
@@ -11,7 +14,7 @@ int main() {
 }
 
 void isPrime(int num) {
-  if (num == 2) {
+  /*if (num == 2) {
     cout << "PASS!" << "\n";
   }
 
@@ -28,6 +31,24 @@ void isPrime(int num) {
       isPrime(num / i);
       cout << "PASS!" << "\n";
     }
+  }*/
+
+  if (num == 2) {
+    cout << "PASS!" << "\n";
+  }
+
+  if (num == 1) {
+    cout << "FAIL!" << "\n";
+  }
+
+  else {
+    for (int i = 2; i < sqrt(num); i++) {
+      if (num % i == 0) {
+        cout << "FAIL!" << "\n";
+      }
+
+      cout << "PASS!" << "\n";
+    }
   }
 }
 
@@ -41,7 +62,10 @@ void test() {
   // 8: FAIL
   // PASS means the number is prime and FAIL means the number isn't prime
 
-  for (int i = 0; i < 6; i++) {
-    isPrime(i);
-  }
+  isPrime(2);
+  isPrime(3);
+  isPrime(7);
+  isPrime(1);
+  isPrime(4);
+  isPrime(8);
 }

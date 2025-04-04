@@ -1,4 +1,5 @@
-
+// Pradhyum Kaundinya
+// This program takes in a fraction as input and reduces the fraction completely
 
 #include <iostream>
 #include <string>
