@@ -52,7 +52,6 @@ void test() {
   cout << isPrime(4);
   cout << isPrime(6);
 
-  cout << "Hello world";
 
 
 }
