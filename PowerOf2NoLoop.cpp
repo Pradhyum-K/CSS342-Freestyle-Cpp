@@ -45,9 +45,9 @@ void test() {
   // 16: PASS
   // PASS means the number is a power of 2 and FAIL means it isn't
 
-    is_power_of_2(5);
-    is_power_of_2(4);
-    is_power_of_2(7);
-    is_power_of_2(18);
-    is_power_of_2(16);
+  is_power_of_2(5);
+  is_power_of_2(4);
+  is_power_of_2(7);
+  is_power_of_2(18);
+  is_power_of_2(16);
 }
