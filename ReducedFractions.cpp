@@ -1,6 +1,30 @@
 // Pradhyum Kaundinya
 // This program takes in a fraction as input and reduces the fraction completely
 
+// Notes from class
+
+/* What to include in a project?
+1. Comments
+    - Be organized (others need to understand as well)
+    - Make sure the code works or at least compiles
+    - Show some tests to show your program works correctly
+    - Code has to be efficient
+    - Requirement for comments:
+        - Write as few comments as possible
+        - Want to see:
+              - A function is complex and the reader is not able to understand it, so include comments explaining how the function works
+              - A comment for constant numbers (variables)
+    - Coding style:
+    - As long as it is consistent, its fine
+    - GIT/GITHUB
+        - Why use it?
+        - Easy to keep track of changes you make to your program
+        - East to work with others on the same program
+    - Repository: think of it as a folder for all our projects
+        - Steps to using GIT:
+            - Keep doing commit and push while writing code */
+
+
 #include <iostream>
 #include <string>
 
