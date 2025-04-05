@@ -8,6 +8,7 @@ void isPrime(int num);
 void test();
 
 int main() {
+
   test();
   return 0;
 }
