@@ -1,5 +1,5 @@
 // Pradhyum Kaundinya
-// This program takes in a fraction as input and reduces the fraction completely
+// This program checks if a given number is a power of 2 or not
 
 #include <iostream>
 using namespace std;
@@ -22,7 +22,6 @@ void is_power_of_2(int num) {
     cout << "PASS" << "\n";
 
   }
-
 
   else if (num > 1) {
     if (num % 2 == 0) {
