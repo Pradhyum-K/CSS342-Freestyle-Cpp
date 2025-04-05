@@ -14,6 +14,8 @@ int main() {
     return 0;
 }
 
+
+
 void is_power_of_2(int num) {
     while (num != 1) {
         if (num % 2 == 0) {

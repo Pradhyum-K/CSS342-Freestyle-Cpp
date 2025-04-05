@@ -13,6 +13,8 @@ int main() {
   return 0;
 }
 
+
+
 void isPrime(int num) {
   if (num == 2) {
     cout << "PASS!";
