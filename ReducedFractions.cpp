@@ -109,6 +109,7 @@ void test() {
   // 6/6 = 1
   // 3/2 = 3/2
   // -3/2 = -3/2
+  // PASS means the reduction was done correctly and FAIL means it wasn't
 
   // Given an input, the actual output should match the expected output
   Fraction inputs[4] = {Fraction(1, 2),
