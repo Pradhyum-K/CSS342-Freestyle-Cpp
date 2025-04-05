@@ -14,6 +14,7 @@ int main() {
   return 0;
 }
 
+
 void is_power_of_2(int num) {
   if (num == 0) {
     cout << "FAIL" << "\n";
