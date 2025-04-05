@@ -8,6 +8,7 @@ using namespace std;
 void is_power_of_2(int num);
 void test();
 
+
 int main() {
   test();
   return 0;
